@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFB14D4622924AE4003EAB26 /* LThreadNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB14D4522924AE4003EAB26 /* LThreadNotificationViewController.m */; };
 		CFF50848225C3F47007B8D47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF50847225C3F47007B8D47 /* AppDelegate.m */; };
 		CFF5084B225C3F47007B8D47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF5084A225C3F47007B8D47 /* ViewController.m */; };
 		CFF5084E225C3F47007B8D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF5084C225C3F47007B8D47 /* Main.storyboard */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFB14D4422924AE4003EAB26 /* LThreadNotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LThreadNotificationViewController.h; sourceTree = "<group>"; };
+		CFB14D4522924AE4003EAB26 /* LThreadNotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LThreadNotificationViewController.m; sourceTree = "<group>"; };
 		CFF50843225C3F47007B8D47 /* Learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF50846225C3F47007B8D47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFF50847225C3F47007B8D47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CFB14D402292496F003EAB26 /* Notification+Thread */ = {
+			isa = PBXGroup;
+			children = (
+				CFB14D4422924AE4003EAB26 /* LThreadNotificationViewController.h */,
+				CFB14D4522924AE4003EAB26 /* LThreadNotificationViewController.m */,
+			);
+			path = "Notification+Thread";
+			sourceTree = "<group>";
+		};
 		CFF5083A225C3F47007B8D47 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +137,7 @@
 				CFF50847225C3F47007B8D47 /* AppDelegate.m */,
 				CFF50849225C3F47007B8D47 /* ViewController.h */,
 				CFF5084A225C3F47007B8D47 /* ViewController.m */,
+				CFB14D402292496F003EAB26 /* Notification+Thread */,
 				CFF50884225C51BF007B8D47 /* KVO */,
 				CFF50878225C3F54007B8D47 /* NotificationCenter */,
 				CFF5084C225C3F47007B8D47 /* Main.storyboard */,
@@ -315,6 +328,7 @@
 				CFF508D422682027007B8D47 /* NSObject+LKVO.m in Sources */,
 				CFF5087B225C3FF2007B8D47 /* LNotification.m in Sources */,
 				CFF50856225C3F49007B8D47 /* main.m in Sources */,
+				CFB14D4622924AE4003EAB26 /* LThreadNotificationViewController.m in Sources */,
 				CFF50848225C3F47007B8D47 /* AppDelegate.m in Sources */,
 				CFF508D7226820B4007B8D47 /* NSObject+LKVOAttrs.m in Sources */,
 				CFF508D122681F97007B8D47 /* LKVOObserver.m in Sources */,
